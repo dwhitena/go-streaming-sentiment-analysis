@@ -135,17 +135,7 @@ func main() {
 	machBoxIP := "http://localhost:8080"
 	mbClient := textbox.New(machBoxIP)
 
-	// Initialize the stats.
-	myStats := Stats{
-		SentimentAverage: 0.0,
-		Counts: map[string]int{
-			"positive": 0,
-			"negative": 0,
-			"neutral":  0,
-			"total":    0,
-		},
-		Mux: sync.Mutex{},
-	}
+	// TODO: Initialize a stats struct.
 
 	// Setup the values we need for the context and filtering.
 	ctx, _ := context.WithTimeout(context.Background(), 10*time.Second)
@@ -219,9 +209,7 @@ func main() {
 				}
 				sentimentTotal = sentimentTotal / float64(len(analysis.Sentences))
 
-				// Update the stats.
-				myStats.UpdateSentiment(sentimentTotal)
-				myStats.IncrementCount(sentimentTotal)
+				// TODO: Update the stats.
 			}
 		}
 	}()
