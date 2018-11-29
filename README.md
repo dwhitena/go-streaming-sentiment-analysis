@@ -11,14 +11,15 @@ Prerequisites:
 
 You can complete the tutorial by walking through the following steps:
 
-1. [Install Go]()
-2. [Run MachineBox's Text Box]()
-3. [Create a Twitter "app"]()
-4. [Learn how to work with and write Go]()
-5. [Learn about a few relevant Go primitives]()
-6. [Process tweets with Go]()
-7. [Analyze sentiment with Go and MachineBox]()
-8. [Analyze the sentiment of streaming tweets]()
+1. [Install Go](#1-install-go)
+2. [Run MachineBox's Text Box](#2-run-machineboxs-text-box)
+3. [Create a Twitter "app"](#3-create-a-twitter-app)
+4. [Learn how to work with and write Go](#4-learn-how-to-work-with-and-write-go)
+5. [Learn about a few relevant Go primitives](#learn-about-a-few-relevant-go-primitives)
+6. [Process tweets with Go](#process-tweets-with-go)
+7. [Analyze sentiment with Go and MachineBox](#analyze-sentiment-with-go-and-machinebox)
+8. [Analyze the sentiment of streaming tweets](#analyze-the-sentiment-of-streaming-tweets)
+9. [BONUS Exercise - Scaling up]()
 
 ## 1. Install Go
 
@@ -123,3 +124,9 @@ Review this [mutex example](example4)
 ## Analyze the sentiment of streaming tweets
 
 **Exercise 4** - This third exercise will introduce you to how we can connect all of the building blocks and perform streaming sentiment analysis of tweets. Note, that you will need to have the textbox up and running in Docker as detailed above. From the root of your cloned version of this repo (in your `$HOME/go/src` directory), navigate to the `exercise4` directory. You will find the template and solution files for this exercise there.
+
+## Bonus exercise - Scaling up
+
+In [example3](example3), we discussed how to use multiple workers to process things off of a buffered channel. How could you utilize this ideas to increase the efficiency of your streaming analysis? Try it out!
+
+*HINT - the exercise 4 example blocks while waiting for a response from MachineBox. Try using multiple workers to process tweets concurrently while waiting on those responses.*
