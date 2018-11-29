@@ -20,8 +20,6 @@ You can complete the tutorial by walking through the following steps:
 7. [Analyze sentiment with Go and MachineBox]()
 8. [Analyze the sentiment of streaming tweets]()
 
-This repo also include [a number of resources (at the end of this README)](#resources) if you want to dig into more details.
-
 ## 1. Install Go
 
 You will be running all of the tutorial steps on your local machine. Thus, you need to make sure that you have Go installed. I recommend following [this guide for setting up your local Go environment](https://www.ardanlabs.com/blog/2016/05/installing-go-and-your-workspace.html). 
@@ -112,19 +110,16 @@ One of the main mechanisms for managing state in Go is communication over channe
 
 So what does that mean, and what the heck is a "Mutex"? Well, a mutex is a mutual exclusion lock that can be utilized as a rule, such that we can safely access data across multiple goroutines. More specifically, a Mutex allows us to Lock certain data (e.g., a struct) that may also be accessed by other goroutines, such that we ensure exclusive access to the data until we Unlock that data.
 
+Review this [mutex example](example4)
 
 ## Process tweets with Go
 
-blah
+**Exercise 2** - This first exercise will introduce you to how we can process Tweets with Go. From the root of your cloned version of this repo (in your `$HOME/go/src` directory), navigate to the `exercise2` directory. You will find the template and solution files for this exercise there.
 
 ## Analyze sentiment with Go and MachineBox
 
-blah
+**Exercise 3** - This third exercise will introduce you to how we can perform sentiment analysis with MachineBox from Go. Note, that you will need to have the textbox up and running in Docker as detailed above. From the root of your cloned version of this repo (in your `$HOME/go/src` directory), navigate to the `exercise3` directory. You will find the template and solution files for this exercise there.
 
 ## Analyze the sentiment of streaming tweets
 
-blah
-
-## Resources 
-
-blah
+**Exercise 4** - This third exercise will introduce you to how we can connect all of the building blocks and perform streaming sentiment analysis of tweets. Note, that you will need to have the textbox up and running in Docker as detailed above. From the root of your cloned version of this repo (in your `$HOME/go/src` directory), navigate to the `exercise4` directory. You will find the template and solution files for this exercise there.
