@@ -19,7 +19,7 @@ You can complete the tutorial by walking through the following steps:
 6. [Process tweets with Go](#process-tweets-with-go)
 7. [Analyze sentiment with Go and MachineBox](#analyze-sentiment-with-go-and-machinebox)
 8. [Analyze the sentiment of streaming tweets](#analyze-the-sentiment-of-streaming-tweets)
-9. [BONUS Exercise - Scaling up]()
+9. [BONUS Exercise - Scaling up](#bonus-exercise---scaling-up)
 
 ## 1. Install Go
 
