@@ -30,7 +30,15 @@ You will be running all of the tutorial steps on your local machine. Thus, you n
 
 ## 2. Run MachineBox's Text Box
 
-blah
+[MachineBox](https://machinebox.io/) is state-of-the-art machine learning technology inside a Docker container which you can run, deploy and scale. We will utilize "textbox," which is a pre-configured Docker image for sentiment analysis. Everyone can run their own textbox on their own machine as follows:
+
+1. Open a new terminal window
+2. Go to [machinebox.io](https://machinebox.io/) and click "sign up for your free key"
+3. Enter your email address
+4. Check for the sign up email in your inbox
+5. Follow the link in the email. This will take you to your account page on the MachineBox site.
+6. Scroll down to the bottom of that account page and click on "textbox"
+7. Follow the instructions to run `textbox` via Docker
 
 ## Resources 
 
