@@ -17,9 +17,10 @@ You can complete the tutorial by walking through the following steps:
 4. [Learn how to work with and write Go](#4-learn-how-to-work-with-and-write-go)
 5. [Learn about a few relevant Go primitives](#learn-about-a-few-relevant-go-primitives)
 6. [Process tweets with Go](#process-tweets-with-go)
-7. [Analyze sentiment with Go and MachineBox](#analyze-sentiment-with-go-and-machinebox)
-8. [Analyze the sentiment of streaming tweets](#analyze-the-sentiment-of-streaming-tweets)
-9. [BONUS Exercise - Scaling up](#bonus-exercise---scaling-up)
+7. [Processing tweets as a stream](#process-tweets-as-a-stream)
+8. [Analyze sentiment with Go and MachineBox](#analyze-sentiment-with-go-and-machinebox)
+9. [Analyze the sentiment of streaming tweets](#analyze-the-sentiment-of-streaming-tweets)
+10. [BONUS Exercise - Scaling up](#bonus-exercise---scaling-up)
 
 ## 1. Install Go
 
