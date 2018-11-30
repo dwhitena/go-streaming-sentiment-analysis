@@ -127,7 +127,7 @@ Review this [mutex example](example4)
 
 ## Bonus exercise - Scaling up
 
-In [example3](example3), we discussed how to use multiple workers to process things off of a buffered channel. How could you utilize this ideas to increase the efficiency of your streaming analysis? Try it out!
+In [example3](example3), we discussed how to use multiple workers to process things off of a buffered channel. How could you utilize this ideas to increase the efficiency of your streaming analysis? Try modifying your exercise 5 code to use a buffered channel and multiple workers. 
 
 *HINT - the exercise 4 example blocks while waiting for a response from MachineBox. Try using multiple workers to process tweets concurrently while waiting on those responses.*
 
