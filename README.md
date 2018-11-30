@@ -70,6 +70,8 @@ $ ./template
 
 Once you try out the exercises based on the template files, feel free to look at the corresponding solution file. It's totally ok to look at this if you are stuck! Also, note that these solutions just represent one way of solving the problem. There are enumerable other (completely valid) ways.
 
+*Note - You will likely need to install a few third party packages to complete this tutorial. If you have not done this before, you should look up how to `go get` packages (e.g., [here](https://stackoverflow.com/questions/30295146/how-can-i-install-a-package-with-go-get))*
+
 **Exercise 1** - This first exercise will introduce you to Go structs and how to use them to store data. From the root of your cloned version of this repo (in your `$HOME/go/src` directory), navigate to the `exercise1` directory. You will find the template and solution files for this exercise there.
 
 In this exercise, we will create a `Tweet` struct that will hold the contents of an individual Tweet. In addition to the text of the Tweet, we will include a list of keywords that were matched in the tweet (as we will be searching through tweets by keyword).  We are also going to utilize a `Stats` struct that will allow us to aggregate some streaming statistics about tweets that we are analyzing.  The `SentimentAverage` field will hold a float value that will represent the current average sentiment (positive/negative or happy/sad) of analyzed tweets. This number will fluctuate between 1 and 0, but we will get into those details later. The `Counts` field of the `Stats` struct will include a map that we will update with counts of positive, negative, and neutral tweets.
