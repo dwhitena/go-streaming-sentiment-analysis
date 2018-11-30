@@ -119,17 +119,21 @@ Review this [mutex example](example4)
 
 **Exercise 2** - This first exercise will introduce you to how we can process Tweets with Go. From the root of your cloned version of this repo (in your `$HOME/go/src` directory), navigate to the `exercise2` directory. You will find the template and solution files for this exercise there.
 
+## Process tweets as a stream
+
+**Exercise 3** - This third exercise will introduce you to how we can process a stream of tweets with goroutines and channels. From the root of your cloned version of this repo (in your `$HOME/go/src` directory), navigate to the `exercise3` directory. You will find the template and solution files for this exercise there.
+
 ## Analyze sentiment with Go and MachineBox
 
-**Exercise 3** - This third exercise will introduce you to how we can perform sentiment analysis with MachineBox from Go. Note, that you will need to have the textbox up and running in Docker as detailed above. From the root of your cloned version of this repo (in your `$HOME/go/src` directory), navigate to the `exercise3` directory. You will find the template and solution files for this exercise there.
+**Exercise 4** - This third exercise will introduce you to how we can perform sentiment analysis with MachineBox from Go. Note, that you will need to have the textbox up and running in Docker as detailed above. From the root of your cloned version of this repo (in your `$HOME/go/src` directory), navigate to the `exercise3` directory. You will find the template and solution files for this exercise there.
 
 ## Analyze the sentiment of streaming tweets
 
-**Exercise 4** - This third exercise will introduce you to how we can connect all of the building blocks and perform streaming sentiment analysis of tweets. Note, that you will need to have the textbox up and running in Docker as detailed above. From the root of your cloned version of this repo (in your `$HOME/go/src` directory), navigate to the `exercise4` directory. You will find the template and solution files for this exercise there.
+**Exercise 5** - This third exercise will introduce you to how we can connect all of the building blocks and perform streaming sentiment analysis of tweets. Note, that you will need to have the textbox up and running in Docker as detailed above. From the root of your cloned version of this repo (in your `$HOME/go/src` directory), navigate to the `exercise4` directory. You will find the template and solution files for this exercise there.
 
 ## Bonus exercise - Scaling up
 
-In [example3](example3), we discussed how to use multiple workers to process things off of a buffered channel. How could you utilize this ideas to increase the efficiency of your streaming analysis? Try modifying your exercise 5 code to use a buffered channel and multiple workers. 
+In [example3](example3), we discussed how to use multiple workers to process things off of a buffered channel. How could you utilize this ideas to increase the efficiency of your streaming analysis? Try it out!
 
 *HINT - the exercise 4 example blocks while waiting for a response from MachineBox. Try using multiple workers to process tweets concurrently while waiting on those responses.*
 
